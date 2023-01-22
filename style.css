@@ -1,0 +1,68 @@
+body{
+  background-image: url(https://krot.info/uploads/posts/2021-02/1614135255_12-p-fon-dlya-igri-zmeika-13.jpg);
+}
+.my_p {
+  margin: 5px;
+}
+td {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+tr {
+  display: flex;
+}
+
+.table {
+  background-color: rgba(181, 10, 10, 0.969);
+  box-shadow: 0 0 50px rgb(255, 245, 136);
+  margin: 100px 600px 30px 600px;
+  padding: 10px;
+  min-width: 280px;
+  min-height: 250px;
+  outline: 3px solid #000;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2px;
+}
+
+.main {
+  margin: 10px 10px 10px 10px;
+
+}
+
+/* поле ввода */
+
+.button {
+  background-color: rgba(3, 206, 0, 0.044);
+  box-shadow: 0 0 50px rgb(255, 245, 136);
+  display: flex;
+  justify-content: center;
+  margin: 50px 600px 30px 600px;
+  outline: 1px solid #000;
+  min-width: 280px;
+  padding: 8px;
+  border-radius: 10px;
+}
+#input {
+  margin-right: 10px;
+  padding-right: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-radius: 20px;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+.change_word {
+  background-color: rgb(189, 0, 0);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
